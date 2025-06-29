@@ -34,17 +34,17 @@ const FileHandeling = () => {
                 "Custom-Header": "value",
             }
         })
-        .then(res => {
-            setMsg("Upload successful");
-            console.log(res.data);
-        })
-        .catch(err => {
-            setMsg("Upload failed");
-            console.error(err);
-        })
-        .finally(() => {
-            setUploading(false);
-        });
+            .then(res => {
+                setMsg("Upload successful");
+                console.log(res.data);
+            })
+            .catch(err => {
+                setMsg("Upload failed");
+                console.error(err);
+            })
+            .finally(() => {
+                setUploading(false);
+            });
     }
 
     function handleFileChange(e) {
@@ -57,7 +57,7 @@ const FileHandeling = () => {
         <div>
             <h1>Uploading Files</h1>
             <input type="file" multiple onChange={handleFileChange} />
-            
+
             {/* Display selected file names */}
             {files && (
                 <ul>
