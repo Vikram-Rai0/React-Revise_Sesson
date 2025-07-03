@@ -3,6 +3,9 @@ import UseEffect from "./components/UseEffect";
 import MapList from "./components/Map.jsx";
 import FileHandeling from "./components/FileHandeling.jsx";
 import UseRef from "./components/UseRef.jsx";
+import ConditionRendering from "./components/ConditionRendering.jsx";
+import BlobURL from "./components/BlobURL.jsx";
+import YouTubeEmbedder from "./components/Iframe.jsx";
 
 function App() {
   return (
@@ -10,7 +13,11 @@ function App() {
     // <UseEffect />
     // <MapList />
     //  < FileHandeling/>
-    <UseRef />
+    // <UseRef />
+    // <ConditionRendering isLoggedIn={true} username="Vikram" />
+    // <BlobURL />
+    <YouTubeEmbedder />
   );
 }
+import YouTubeEmbedder from "./components/Iframe.jsx";
 export default App;

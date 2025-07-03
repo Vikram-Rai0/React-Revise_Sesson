@@ -1,4 +1,4 @@
-//Rendering list with math
+//Rendering list with map
 import React from 'react'
 
 const MapList = () => {

@@ -5,7 +5,7 @@
 // 3. Managing Timers and Intervals
 
 import React from 'react'
-import { useState, useEffect, useRef } from 'react';
+import {  useEffect, useRef } from 'react';
 const UseRef = () => {
     // let [number, setNumber] = useState(0)
     const inputRef1 = useRef("hello");
